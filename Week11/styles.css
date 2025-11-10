@@ -1,0 +1,35 @@
+/*
+  Author: Abhimanyu Gupta
+  File: styles.css
+  Date: 2025-11-09
+*/
+
+/* Table layout */
+table {
+  border: 2px solid #222;
+  margin: auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+/* Cell styling */
+th,
+td {
+  border: 2px solid #222;
+  padding: 0.5em;
+  text-align: center;
+}
+
+/* Movie title cells align left */
+.movie-title {
+  text-align: left;
+}
+
+/* Zebra striping for rows */
+tr:nth-child(odd) {
+  background-color: #f4e1d2;
+}
+
+tr:nth-child(even) {
+  background-color: #c5dff8;
+}
