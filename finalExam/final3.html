@@ -1,0 +1,174 @@
+<!--
+Name: Abhimanyu Gupta
+Date: December 7, 2025
+File: final3.html
+Subject: Kathak Website - Form Page (Himalayan Aesthetic)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kathak in the Himalayan Light | Practice Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="wrapper">
+<div class="content-layer">
+
+
+    <!-- HEADER (Wireframe) -->
+    <header>
+        <h1>Kathak in the Himalayan Light</h1>
+        <p class="lead">A student-ready, North Indian exploration of rhythm, narrative, gharanas, music, costume, and modern practice.</p>
+
+        <ul class="nav">
+            <li><a href="final1.html">Home</a></li>
+            <li><a href="final2.html">History & Technique</a></li>
+            <li><a href="final3.html">Practice Planner Form</a></li>
+            <li><a href="final4.html">Credits</a></li>
+        </ul>
+
+    </header>
+
+
+    <!-- MAIN (Wireframe) -->
+    <main>
+
+        <div class="section hero">
+            <img src="images/hero-form.png" alt="Himalayan-inspired banner for the practice planner">
+        </div>
+
+        <div class="section delay-1">
+            <h2>Student practice planner</h2>
+            <p>
+                This form is a classroom demonstration. It does not collect or store data.
+                It models how a student dancer could build a realistic routine that respects
+                school workload and physical recovery.
+            </p>
+        </div>
+
+        <div class="section delay-2">
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Basic information</legend>
+
+                    <label for="studentName">Your name</label>
+                    <input type="text" id="studentName" name="studentName">
+
+                    <label for="startDate">Plan start date</label>
+                    <input type="date" id="startDate" name="startDate">
+
+                    <label for="level">Current training level</label>
+                    <select id="level" name="level">
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Main focus (radio)</legend>
+
+                    <span class="inline">
+                        <input type="radio" id="focusFootwork" name="mainFocus" value="footwork">
+                        <label for="focusFootwork" class="inline">Footwork and stamina</label>
+                    </span>
+
+                    <span class="inline">
+                        <input type="radio" id="focusSpins" name="mainFocus" value="spins">
+                        <label for="focusSpins" class="inline">Spins and balance</label>
+                    </span>
+
+                    <span class="inline">
+                        <input type="radio" id="focusExpression" name="mainFocus" value="expression">
+                        <label for="focusExpression" class="inline">Abhinaya and storytelling</label>
+                    </span>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Weekly components (checkbox)</legend>
+
+                    <span class="inline">
+                        <input type="checkbox" id="cbTatkar" name="components" value="tatkar">
+                        <label for="cbTatkar" class="inline">Tatkar drills</label>
+                    </span>
+
+                    <span class="inline">
+                        <input type="checkbox" id="cbChakkar" name="components" value="chakkar">
+                        <label for="cbChakkar" class="inline">Chakkar practice</label>
+                    </span>
+
+                    <span class="inline">
+                        <input type="checkbox" id="cbCompositions" name="components" value="compositions">
+                        <label for="cbCompositions" class="inline">Short compositions</label>
+                    </span>
+
+                    <span class="inline">
+                        <input type="checkbox" id="cbStretch" name="components" value="stretch">
+                        <label for="cbStretch" class="inline">Stretch and conditioning</label>
+                    </span>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Time and reflection</legend>
+
+                    <label for="days">Days you can practice</label>
+                    <select id="days" name="days">
+                        <option value="2">2 days</option>
+                        <option value="3">3 days</option>
+                        <option value="4">4 days</option>
+                        <option value="5">5+ days</option>
+                    </select>
+
+                    <label for="barriers">What might get in the way?</label>
+                    <textarea id="barriers" name="barriers"></textarea>
+
+                    <label for="notes">Notes for your teacher or future self</label>
+                    <textarea id="notes" name="notes"></textarea>
+                </fieldset>
+
+                <p class="helper">
+                    Required elements included: text input, submit/reset, checkbox, radio,
+                    date input, textarea, and select/options.
+                </p>
+
+                <div class="button-row">
+                    <input type="submit" value="Submit Practice Plan">
+                    <input type="reset" value="Clear Form">
+                </div>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>Next page</h2>
+            <p>
+                The credits page lists academic sources and includes examples of every required link type.
+            </p>
+            <p>
+                <a href="final4.html">Continue to Credits</a>
+            </p>
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER (Wireframe) -->
+    <footer>
+
+        <ul class="nav">
+            <li><a href="final1.html">Home</a></li>
+            <li><a href="final2.html">History & Technique</a></li>
+            <li><a href="final3.html">Practice Planner Form</a></li>
+            <li><a href="final4.html">Credits</a></li>
+        </ul>
+
+        <p>&copy; 2025 Abhimanyu Gupta. Educational final project.</p>
+    </footer>
+
+
+</div>
+</div>
+</body>
+</html>
